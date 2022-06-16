@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called name and set it equal to the string "Dane".
+// We check the value of name to see if it is equal to the string "Mary"; 
+//  if so, we tell the console to print "Hi, Mary!"; 
+//  if not, we tell the console to print "How do you do?"
+// The console thus prints "How do you do?"
 
 //CODE
 /*
@@ -45,10 +46,15 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable named secret with the value undefined.
+// We create a variable named code with the number value 123.
+// We create a condition that if code is equal to the number 123, 
+//  the value of secret is changed to 'super',
+//  and the value of code is then multiplied by 2.
+// We create a condition that if code is greater than 250,
+//  the value of secret is changed to 'duper'.
+// The console then prints the value of secret.
+// The console thus prints 'super'.
 
 //CODE
 /*
@@ -70,9 +76,20 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We define a variable named isStudent with the boolean value true.
+// We define a variable named age with the number value 34.
+// We define a variable named zip with the number value 55407.
+// We create a compound condition that if the value of isStudent is boolean true
+//  and the value of zip is greater than 80000,
+//  the console prints "You're a student on the west coast!"
+// If not, a compound condition follows that if the value of isStudent is boolean false
+//  or the value of age is less than 30,
+//  the console prints "What are your hobbies?"
+// If not, a condition follows that if the value of student is boolean true,
+//  the console prints "Welcome to Prime!"
+// If not, the console prints "How about the weather?" 
+//
+// The console thus prints "Welcome to Prime!"
 //
 
 //CODE

@@ -147,9 +147,19 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// FIX -  instructions state colorOne should equal 'blue', not 'red'
+//        instructions state colorTwo should equal 'red', not 'blue'
+//        Exchange the values of these two variables
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
+
+// FIX -  instructions state both colorOne and colorTwo should change value to 'purple'
+//        Should be
+//        colorOne = 'purple';
+//        colorTwo = 'purple';
 
 if (mix === true) {
   colorOne = 'purple';
@@ -164,6 +174,9 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - Instructions state the conditions should be if temp is higher than 39 
+//        and time is greater than or equal to 4.
+//       Should be if (temp > 39 && time >= 4) {
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -176,6 +189,15 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+// FIX - The outputs are in the wrong place. 
+// This will console log "no entry" when age is greater than or equal to minAge.
+// Should be:
+//  if(minAge <= age) {
+//    console.log('enter');
+//  } else {
+//    console.log('no entry');
+//  }
 
 if(minAge <= age) {
   console.log('no entry');
